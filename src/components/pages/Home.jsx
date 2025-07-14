@@ -30,28 +30,28 @@ const Home = () => {
                 <h3>
                   <span className="dash">- </span>  01
                 </h3>
-                <img className='arc' src={connect_wallet} alt="wallet" />
+                <img className='arc' src={connect_wallet} alt="wallet" loading="lazy" />
                 <p>Connect your wallet to Billion Towers</p>
               </div>
               <div className="content">
                 <h3>
                   <span className="dash">- </span>  02
                 </h3>
-                <img className='arc' src={home1} alt="home" />
+                <img className='arc' src={home1} alt="home" loading="lazy" />
                 <p>Go to the marketplaces to buy an real estate</p>
               </div>
               <div className="content">
                 <h3>
                   <span className="dash">- </span>  03
                 </h3>
-                  <img className='arc' src={trading} alt="trading" />
+                  <img className='arc' src={trading} alt="trading" loading="lazy" />
                   <p>You receive your rental return each month.</p>
               </div>
               <div className="content">
                 <h3>
                   <span className="dash">- </span>  04
                 </h3>
-                <img className='arc' src={sellhome} alt="sell_home" />
+                <img className='arc' src={sellhome} alt="sell_home" loading="lazy" />
                 <p>Sell your real estate whenever you want.</p>
               </div>
             </div>
@@ -117,7 +117,7 @@ const Home = () => {
                 </h3>
                 <p>When you decide, you can put your NFT up for sale, otherwise take advantage of the passive income.</p>
               </div>
-              <img src={vrmobile} className="vrmobile" alt="Billion Towers mobile" style={{width:"550px", height:"350px"}}/>
+              <img src={vrmobile} className="vrmobile" alt="Billion Towers mobile" style={{width:"550px", height:"350px"}} loading="lazy"/>
             </div>
             <div className="pr-header">
               <h3 id="properties">Among our properties already financed</h3>

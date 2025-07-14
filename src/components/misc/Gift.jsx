@@ -18,7 +18,7 @@ const Gift = () => {
               </a>
             </div>
             <div>
-              <img className="building" src={building} alt="building" style={{width:'100%'}}/>
+              <img className="building" src={building} alt="building" style={{width:'100%'}} loading="lazy"/>
             </div>
           </div>
         </React.Fragment>

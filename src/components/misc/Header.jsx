@@ -18,6 +18,9 @@ const Header = () => {
                     </a>
                 </div>
             </header>
+            {/* Note: Background images in CSS don't need loading="lazy", but if you switch to img tags:
+            <img src="../../images/header.jpg" alt="Header" loading="lazy" />
+            */}
         </React.Fragment>
     )
 }

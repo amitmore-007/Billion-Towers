@@ -7,7 +7,7 @@ const Property = ({property}) => {
         <React.Fragment>
           <div className="property">
             <div className="property-image">
-              <img src={property.images[0]} alt="property"/>
+              <img src={property.images[0]} alt="property" loading="lazy"/>
             </div>
             <div className="property-details">
               <div className="property-details-2">
