@@ -121,7 +121,7 @@ const Home = () => {
             </div>
             <div className="pr-header">
               <h3 id="properties">Among our properties already financed</h3>
-              <h3 className="cl-blue"><a href='/MarketPlace'>View All</a></h3>
+              <h3 className="cl-blue"><a href='/marketplace'>View All</a></h3>
             </div>
             <div className="properties">
               {properties.map((property) => <Property property={property}/>)}

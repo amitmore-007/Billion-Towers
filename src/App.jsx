@@ -20,12 +20,12 @@ function App() {
       <Router>
         <Layout>
           <Routes>
-            <Route path='/About' element={<About/>}></Route>
-            <Route path='/FAQ' element={<FAQ/>}></Route>
-            <Route path='/MarketPlace' element={<MarketPlace/>}></Route>
+            <Route path='/about' element={<About/>}></Route>
+            <Route path='/faq' element={<FAQ/>}></Route>
+            <Route path='/marketplace' element={<MarketPlace/>}></Route>
             <Route path='/property/:id' element={<SingleProperty/>}></Route>
             <Route path='/' element={<Home/>}></Route>
-	    <Route path = '*' element={<NotFound/>} />
+            <Route path='*' element={<NotFound/>} />
           </Routes>
         </Layout>
       </Router>
